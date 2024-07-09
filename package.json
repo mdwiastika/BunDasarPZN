@@ -15,5 +15,8 @@
   "scripts": {
     "w": "bun --watch run",
     "t": "bun --watch test"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
